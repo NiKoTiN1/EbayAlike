@@ -5,12 +5,12 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\EbayAlike.Data\EbayAlike.Data.csproj" />
-    <ProjectReference Include="..\EbayAlike.ViewModels\EbayAlike.ViewModels.csproj" />
+    <PackageReference Include="AutoMapper" Version="10.1.1" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Mapper\" />
+    <ProjectReference Include="..\EbayAlike.Data\EbayAlike.Data.csproj" />
+    <ProjectReference Include="..\EbayAlike.ViewModels\EbayAlike.ViewModels.csproj" />
   </ItemGroup>
 
 </Project>
