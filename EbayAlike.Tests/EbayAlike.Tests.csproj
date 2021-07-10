@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\EbayAlike.Data\EbayAlike.Data.csproj" />
+    <ProjectReference Include="..\EbayAlike.Services\EbayAlike.Services.csproj" />
+    <ProjectReference Include="..\EbayAlike.ViewModels\EbayAlike.ViewModels.csproj" />
+    <ProjectReference Include="..\EbayAlike\EbayAlike.Web.csproj" />
+  </ItemGroup>
+
+</Project>

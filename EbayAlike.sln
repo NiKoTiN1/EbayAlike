@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31025.194
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EbayAlike.Web", "EbayAlike\EbayAlike.Web.csproj", "{275B911B-130D-42CC-8BB0-7EF7326381AB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EbayAlike.Services", "EbayAlike.Services\EbayAlike.Services.csproj", "{2C1C5A8B-C288-4F68-8FD8-086FB4E8901C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EbayAlike.Data", "EbayAlike.Data\EbayAlike.Data.csproj", "{8FA34CDD-D309-454B-80D8-77CE1F05F0B7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EbayAlike.Domain", "EbayAlike.Domain\EbayAlike.Domain.csproj", "{872B89AE-747E-4F3C-891F-DB1190389942}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EbayAlike.Tests", "EbayAlike.Tests\EbayAlike.Tests.csproj", "{068012F6-3307-4C37-9012-C84D23E3FB2B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EbayAlike.ViewModels", "EbayAlike.ViewModels\EbayAlike.ViewModels.csproj", "{80A61F63-23BB-4628-BF32-55791A7A76AB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{275B911B-130D-42CC-8BB0-7EF7326381AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{275B911B-130D-42CC-8BB0-7EF7326381AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{275B911B-130D-42CC-8BB0-7EF7326381AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{275B911B-130D-42CC-8BB0-7EF7326381AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C1C5A8B-C288-4F68-8FD8-086FB4E8901C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C1C5A8B-C288-4F68-8FD8-086FB4E8901C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C1C5A8B-C288-4F68-8FD8-086FB4E8901C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C1C5A8B-C288-4F68-8FD8-086FB4E8901C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8FA34CDD-D309-454B-80D8-77CE1F05F0B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FA34CDD-D309-454B-80D8-77CE1F05F0B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FA34CDD-D309-454B-80D8-77CE1F05F0B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FA34CDD-D309-454B-80D8-77CE1F05F0B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{872B89AE-747E-4F3C-891F-DB1190389942}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{872B89AE-747E-4F3C-891F-DB1190389942}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{872B89AE-747E-4F3C-891F-DB1190389942}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{872B89AE-747E-4F3C-891F-DB1190389942}.Release|Any CPU.Build.0 = Release|Any CPU
+		{068012F6-3307-4C37-9012-C84D23E3FB2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{068012F6-3307-4C37-9012-C84D23E3FB2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{068012F6-3307-4C37-9012-C84D23E3FB2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{068012F6-3307-4C37-9012-C84D23E3FB2B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80A61F63-23BB-4628-BF32-55791A7A76AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80A61F63-23BB-4628-BF32-55791A7A76AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80A61F63-23BB-4628-BF32-55791A7A76AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80A61F63-23BB-4628-BF32-55791A7A76AB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F03D5D11-5E7C-4AD5-B526-EAC80FF602FD}
+	EndGlobalSection
+EndGlobal
