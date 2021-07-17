@@ -7,5 +7,6 @@ namespace EbayAlike.Services.Interfaces
     public interface IAccountService
     {
         public Task<TokenViewModel> AddUser(CreateUserViewModel model);
+        public Task<TokenViewModel> Login(LoginViewModel model);
     }
 }

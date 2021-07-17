@@ -59,6 +59,7 @@ namespace EbayAlike
                 });
 
             services.AddTransient<IAccountService, AccountService>();
+            services.AddTransient<ITokenService, TokenService>();
 
             var mappingConfig = new MapperConfiguration(mc =>
             {

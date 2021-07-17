@@ -1,8 +1,13 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
 namespace EbayAlike.ViewModels
 {
-    public class CreateUserViewModel
+    public class LoginViewModel
     {
         [Required]
         [MaxLength(50)]
@@ -14,8 +19,5 @@ namespace EbayAlike.ViewModels
         [MaxLength(50)]
         [DataType(DataType.Password)]
         public string Password { get; set; }
-        [Required]
-        [MaxLength(50)]
-        public string UserName { get; set; }
     }
 }
